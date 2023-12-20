@@ -1,0 +1,2 @@
+dec imc : num # num -> num;
+--- imc (p, a) <= p / pow(a, 2);

@@ -1,0 +1,12 @@
+dec produto : num # num -> num;
+dec imc : num # num -> num;
+dec dolar : num # num -> num;
+dec squad : num # num -> num;
+
+--- produto (x, y) <= x * y;
+
+--- imc (p, a) <= p / pow (a, 2);
+
+--- dolar (real, valor) <= real / valor;
+
+--- squad (a, b) <= pow (a, 2) + pow (b, 2);
