@@ -24,4 +24,7 @@ Não é possível salvar as seguintes funções em arquivos de extensão .hop e 
 ```hope
 >: (\(p, a) => (p / pow(a, 2))) (85, 1.80);
 >> 26.2345679012346 : num
+>:
+>: (\p => \a => (p / pow(a, 2))) 85 1.80;
+>> 26.2345679012346 : num
 ```
